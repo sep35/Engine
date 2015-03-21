@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+#textArea {
+	-fx-background-color: rgba(0, 0, 0, 0.0);
+	-fx-font-size: 12;
+}
+
+#textArea .scroll-pane {
+	-fx-background-color: transparent;
+}
+
+#textArea .scroll-pane .viewport {
+	-fx-background-color: transparent;
+}
+
+#textArea .scroll-pane .content {
+	-fx-background-color: transparent;
+}
+
+#textArea *.text {
+	-fx-text-alignment: center;
+}
